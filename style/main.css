@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@600&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+}
+
+.btn-color {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  border-radius: 50px;
+  padding: 0.89rem 2rem;
+  background-color: #ff52bf;
+  color: #fff;
+  -webkit-box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+          box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.btn-color:hover {
+  background-color: #ff52bfad;
+  border-color: none;
+  color: #fff;
+}
+
+.btn-white {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  border-radius: 50px;
+  padding: 0.89rem 2rem;
+  background-color: #fff;
+  color: black;
+  -webkit-box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+          box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.wrapper {
+  background: url("../images/bg-hero-mobile.svg") no-repeat center/cover;
+  background-color: #ebfbff;
+}
+
+@media (min-width: 375px) {
+  .wrapper {
+    background: url("../images/bg-hero-desktop.svg") no-repeat center/cover;
+    background-color: #ebfbff;
+  }
+}
+
+.wrapper .fs-11 {
+  font-size: 3.5rem !important;
+}
+
+@media (min-width: 375px) {
+  .wrapper .fs-11 {
+    font-size: 2.5rem !important;
+  }
+}
+
+.footer {
+  background-color: #00252e;
+  margin-top: 200px;
+}
+
+.footer .footer-card {
+  width: 100%;
+}
+
+@media (min-width: 1024px) {
+  .footer .footer-card {
+    width: 75%;
+  }
+}
+
+.card {
+  border: none;
+}
+
+.card-shadow {
+  -webkit-box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+          box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+/*# sourceMappingURL=main.css.map */
